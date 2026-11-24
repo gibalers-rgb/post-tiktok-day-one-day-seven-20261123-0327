@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pixel Hop — day one vs day seven</title>
+<style>
+  body { margin: 0; background: #79c7e8; font-family: system-ui, sans-serif; }
+  #wrap { max-width: 540px; margin: 0 auto; text-align: center; }
+  canvas { width: 100%; display: block; background: #79c7e8; }
+  button { margin: 8px 4px; padding: 8px 16px; font-size: 16px; cursor: pointer; }
+  p { color: #123; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="540" height="960"></canvas>
+  <p>Space / tap: jump. Same map, same start — press 1 for the day-one build, 7 for the day-seven build.</p>
+  <button id="day1">Day 1</button>
+  <button id="day7">Day 7</button>
+  <p id="hud"></p>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
